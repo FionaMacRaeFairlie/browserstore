@@ -1,14 +1,16 @@
-import './App.css';
-import IdbDemo from './components/indexDbDemo';
-import LSDemo from './components/LocalStoreDemo';
-import SSDemo from './components/SessionStoreDemo';
+import "./App.css";
+import CookieDemo from "./components/CookieDemo";
+import IdbDemo from "./components/indexDbDemo";
+import LSDemo from "./components/LocalStoreDemo";
+import SSDemo from "./components/SessionStoreDemo";
 
 function App() {
   return (
     <div className="App">
-     <IdbDemo />
-     <LSDemo />
-     <SSDemo />
+      <CookieDemo />
+      <IdbDemo />
+      <LSDemo />
+      <SSDemo />
     </div>
   );
 }
